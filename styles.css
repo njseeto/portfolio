@@ -1,31 +1,75 @@
 * { 
   color:#fff; 
   text-decoration: none;
+  box-sizing: border-box;
+  max-width: 100vw;
+  margin: 0;
 }
+
 html {
+  display: flex;
   background-color: #696969;
-  min-height: 100%;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   text-align: center;
   color:#fff;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Title page */
 .intro {
   display: flex;
   flex-direction: column;
-  padding-top: 15em;
+  padding-top: 10em;
   background-color: #696969;
-  min-height: 60vh;
+  min-height: 85vh;
+  margin: 2em;
+}
+
+.intro__name {
+  line-height: 3em;
+}
+
+.intro__typewriter {
+  line-height: 3em;
 }
 
 .intro__contact{
   font-size: 1em;
+  line-height: 8em;
 }
 
 .intro__skills {
   align-self: flex-end;
   min-height: 100%;
+  line-height: 8em;
 }
+
+/* Skills section */
+.skills {
+background-color: #4F6D7A;
+min-width: 100vw;
+min-height: 60vh;
+}
+
+.skills__text {
+  color: black;
+}
+
+/* Work section */
+.work {
+  background-color:#DB504A;
+  min-width: 100vw;
+  min-height: 60vh;
+  }
+
+  /* Contact section */
+.contact {
+  background-color: #E3B505;
+  min-width: 100vw;
+  min-height: 60vh;
+  }
