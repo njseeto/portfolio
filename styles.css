@@ -146,6 +146,7 @@ ul {
   font-size: 0.9rem;
 }
   .work__head{
+    margin-top: 3rem;
     font-size: 1.5rem;
     text-decoration: underline;
     min-width: 100%;
