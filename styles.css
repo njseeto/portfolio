@@ -130,15 +130,51 @@ ul {
 
 /* Work section */
 .work {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content: space-around;
   background-color:#DB504A;
-  min-width: 100%;
-  min-height: 70vh;
   }
-
+.work__container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 60vh;
+}
   .work__head{
     font-size: 1.5rem;
     text-decoration: underline;
-    line-height: 3rem;
+    min-width: 100%;
+    line-height: 8rem;
+  }
+
+  .browser__one, .browser__two, .browser__three{
+    border-top: 2em solid rgba(230, 230, 230, 0.7);
+    box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
+    position: relative;
+    border-radius: 3px 3px 0 0;
+    max-height: 10vh;
+    max-width: 30%;
+    margin: 2em;
+    flex: 1;
+  }
+  
+  .browser__one:before, .browser__two:before, .browser__three:before{
+    display: block;
+    position: absolute;
+    content: '';
+    top: -1.25em;
+    left: 1em;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 50%;
+    background-color: #f44;
+    box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+  }
+
+  img {
+    width: 100%;
   }
 
   /* Contact section */
