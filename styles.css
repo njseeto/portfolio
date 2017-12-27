@@ -9,6 +9,8 @@
 html {
   display: flex;
   background-color: #696969;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -18,6 +20,8 @@ body {
   text-align: center;
   color:#fff;
   font-family: 'Montserrat', sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* Title page */
@@ -28,6 +32,7 @@ body {
   background-color: #696969;
   min-height: 85vh;
   margin: 2em;
+  max-width: 100%;
 }
 
 .intro__name {
@@ -52,17 +57,17 @@ body {
 .intro__skills {
   align-self: flex-end;
   min-height: 100%;
-  line-height: 8em;
-  /* font-style: italic; */
+  line-height: 2em;
+  min-width: 30%
   font-weight: bolder;
   font-style: italic;
   
 }
 
 a:hover { 
-  background: #696969;
 	color: white;
-	box-shadow: inset 0 0 0 0.05em white;
+  box-shadow: inset 0 0 0 0.05em white;
+  padding: 0.2rem;
 }
 
 
@@ -94,8 +99,7 @@ padding-bottom: 7rem;
   font-size: 1.2rem;
   min-width: 100%;
   line-height: 5rem;
-  padding: 0;
-  padding: 0;
+  padding: 5;
   margin: 0;
   list-style: none;
   display: flex;
@@ -127,13 +131,40 @@ ul {
 /* Work section */
 .work {
   background-color:#DB504A;
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 70vh;
+  }
+
+  .work__head{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    line-height: 3rem;
   }
 
   /* Contact section */
 .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #E3B505;
   min-width: 100vw;
   min-height: 60vh;
+  }
+
+  .contact__email{
+    align-self: center;
+    min-width: 15%;
+  }
+
+  .contact__text {
+    line-height: 5rem;
+    text-decoration: underline;
+  }
+
+  .socialmedia {
+    line-height: 3rem;
+  }
+
+  .socialmedia__icons{
+    font-size: 2rem;
   }
