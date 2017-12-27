@@ -1,0 +1,31 @@
+* { 
+  color:#fff; 
+  text-decoration: none;
+}
+html {
+  background-color: #696969;
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+  color:#fff;
+}
+
+/* Title page */
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15em;
+  background-color: #696969;
+  min-height: 60vh;
+}
+
+.intro__contact{
+  font-size: 1em;
+}
+
+.intro__skills {
+  align-self: flex-end;
+  min-height: 100%;
+}
