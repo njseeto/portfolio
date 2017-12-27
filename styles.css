@@ -41,30 +41,94 @@ body {
 .intro__contact{
   font-size: 1em;
   line-height: 8em;
+  font-style: italic;
+  box-shadow: #fff;
+}
+
+.intro__skills__section{
+  font-weight: lighter;
 }
 
 .intro__skills {
   align-self: flex-end;
   min-height: 100%;
   line-height: 8em;
+  /* font-style: italic; */
+  font-weight: bolder;
+  font-style: italic;
+  
 }
+
+a:hover { 
+  background: #696969;
+	color: white;
+	box-shadow: inset 0 0 0 0.05em white;
+}
+
 
 /* Skills section */
 .skills {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: space-around;
+justify-content: center;
 background-color: #4F6D7A;
 min-width: 100vw;
-min-height: 60vh;
+min-height: 70vh;
+padding: 5rem;
+padding-bottom: 7rem;
+}
+
+
+.skills__head {
+  line-height: 3rem;
+  text-decoration: underline;
 }
 
 .skills__text {
   color: black;
 }
 
+.skill__front, .skill__back, .skill__env {
+  font-size: 1.2rem;
+  min-width: 100%;
+  line-height: 5rem;
+  padding: 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  align-content: space-around;
+}
+
+.skill__front__item, .skill__back__item, .skill__env__item {
+  font-size: 0.8rem;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  max-width: 7rem;
+  max-height: 3rem;
+  padding: 0.5rem;
+  line-height: 1rem;
+  text-align: center;
+  margin: 6px;
+}
+
 /* Work section */
 .work {
   background-color:#DB504A;
   min-width: 100vw;
-  min-height: 60vh;
+  min-height: 70vh;
   }
 
   /* Contact section */
