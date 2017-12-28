@@ -52,6 +52,7 @@ body {
 
 .intro__skills__section{
   font-weight: lighter;
+  margin-top: 5rem;
 }
 
 .intro__skills {
@@ -61,15 +62,20 @@ body {
   min-width: 30%
   font-weight: bolder;
   font-style: italic;
-  
+}
+
+.arrows__img{
+  max-width: 1rem;
+  align-self: center;
+  margin-top: 3rem;
 }
 
 a:hover { 
 	color: white;
   box-shadow: inset 0 0 0 0.05em white;
   padding: 0.2rem;
+  opacity: 0.7;
 }
-
 
 /* Skills section */
 .skills {
@@ -136,17 +142,21 @@ ul {
   justify-content: space-around;
   background-color:#DB504A;
   }
+
 .work__container{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   min-height: 60vh;
+  font-size: 0.9rem;
+  min-width: 100%;
 }
   .work__head{
+    margin-top: 3rem;
     font-size: 1.5rem;
     text-decoration: underline;
     min-width: 100%;
-    line-height: 8rem;
+    line-height: 5rem;
   }
 
   .browser__one, .browser__two, .browser__three{
@@ -154,7 +164,7 @@ ul {
     box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
     position: relative;
     border-radius: 3px 3px 0 0;
-    max-height: 10vh;
+    max-height: 20vh;
     max-width: 30%;
     margin: 2em;
     flex: 1;
@@ -174,7 +184,16 @@ ul {
   }
 
   img {
-    width: 100%;
+    max-width: 100%;
+    max-height: 200%
+  }
+
+  .work__text{
+    padding: 1rem;
+  }
+
+  h3{
+    font-weight: bold;
   }
 
   /* Contact section */
@@ -185,6 +204,7 @@ ul {
   background-color: #E3B505;
   min-width: 100vw;
   min-height: 60vh;
+  font-size: 1.2rem;
   }
 
   .contact__email{
@@ -195,12 +215,30 @@ ul {
   .contact__text {
     line-height: 5rem;
     text-decoration: underline;
+    font-size: 1.6rem;
   }
 
   .socialmedia {
-    line-height: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3rem;
   }
 
   .socialmedia__icons{
     font-size: 2rem;
   }
+
+  .contact__email{
+    margin-top: 2rem;
+    padding: 0.3rem;
+    border-radius: 3px;
+    border: 1px solid #fff;
+  }
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1235px) {
+
+}
