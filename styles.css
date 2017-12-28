@@ -8,7 +8,7 @@
 
 html {
   display: flex;
-  background-color: #696969;
+  background-color: #898c90;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -29,7 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-top: 10em;
-  background-color: #696969;
+  background-color: #898c9080;
   min-height: 85vh;
   margin: 2em;
   max-width: 100%;
