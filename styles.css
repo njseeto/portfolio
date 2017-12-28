@@ -52,6 +52,7 @@ body {
 
 .intro__skills__section{
   font-weight: lighter;
+  margin-top: 5rem;
 }
 
 .intro__skills {
@@ -61,7 +62,12 @@ body {
   min-width: 30%
   font-weight: bolder;
   font-style: italic;
-  
+}
+
+.arrows__img{
+  max-width: 1rem;
+  align-self: center;
+  margin-top: 3rem;
 }
 
 a:hover { 
@@ -70,7 +76,6 @@ a:hover {
   padding: 0.2rem;
   opacity: 0.7;
 }
-
 
 /* Skills section */
 .skills {
@@ -144,6 +149,7 @@ ul {
   flex-wrap: wrap;
   min-height: 60vh;
   font-size: 0.9rem;
+  min-width: 100%;
 }
   .work__head{
     margin-top: 3rem;
@@ -229,3 +235,10 @@ ul {
     border-radius: 3px;
     border: 1px solid #fff;
   }
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1235px) {
+
+}
