@@ -28,7 +28,7 @@ body {
 .intro {
   display: flex;
   flex-direction: column;
-  padding-top: 10em;
+  padding-top: 8em;
   background-color: #898c9080;
   min-height: 85vh;
   margin: 2em;
@@ -67,7 +67,7 @@ body {
 .arrows__img{
   max-width: 1rem;
   align-self: center;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 a:hover { 
@@ -240,5 +240,393 @@ ul {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1235px) {
+
+  .work__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 150vh;
+    font-size: 0.9rem;
+    min-width: 100%;
+    margin-top: -14rem;
+  }
+
+  .work__head {
+    margin-top: 1.5rem;
+  }
+
+  .browser__one, .browser__two, .browser__three{
+    min-width: 40%;
+    max-height: 10%;
+    align-content: center;
+    align-self: center;
+  }
+
+  .browser__three{
+    margin-top: -15rem;
+  }
+
+
+  @media only screen and (max-width: 900px) {
+    .intro{
+      min-height: 70vh;
+    }
+
+    .work__container{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      min-height: 100vh;
+      font-size: 0.9rem;
+      min-width: 100%;
+    }
+  
+    .work__head {
+      margin-top: 1.5rem;
+    }
+
+    .intro__name {
+      margin-top: 8rem;
+    }
+
+    .intro__contact__p{
+      margin-top: 5rem;
+    }
+
+    .intro__skills__section {
+      margin-top: 9rem;
+    }
+  
+    .browser__one, .browser__two, .browser__three{
+      min-width: 40%;
+      max-height: 10%;
+      align-content: center;
+      align-self: center;
+    }
+  
+    .browser__three{
+      margin-top: -15rem;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .intro{
+      max-height: 80vh;
+    }
+
+    .intro__name {
+      margin-top: 1rem;
+    }
+
+    .intro__contact__p{
+      margin-top: 2rem;
+    }
+
+    .intro__skills__section {
+      margin-top: 1rem;
+    }
+
+    .work__container{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      min-height: 280vh;
+      font-size: 0.9rem;
+      min-width: 100%;
+    }
+  
+    .work__head {
+      margin-top: 1.5rem;
+      margin-bottom: 7.5rem;
+    }
+  
+    .browser__one, .browser__two, .browser__three{
+      min-width: 60%;
+      min-height: 10%;
+      max-height: 10%;
+      margin-top: -2rem;
+    }
+
+  }
+
+    @media only screen and (max-width: 700px) {
+      .intro__name {
+        margin-top: -1.5rem;
+      }
+
+      .work__container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        min-height: 240vh;
+        font-size: 0.9rem;
+        min-width: 100%;
+      }
+    
+      .browser__one, .browser__two, .browser__three{
+        min-width: 75%;
+        min-height: 15%;
+        max-height: 10%;
+        margin-top: -1rem;
+      }
+
+      .skill__front__item, .skill__back__item, .skill__env__item{
+        min-width: 20%;
+        max-width: 15%;
+        align-self: center;
+        display: block;
+      }
+
+      .skill__env__list{
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+    }
+
+      @media only screen and (max-width: 600px) {
+
+        .work__container{
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          min-height: 240vh;
+          font-size: 0.9rem;
+          min-width: 100%;
+        }
+      
+        .browser__one, .browser__two, .browser__three{
+          min-width: 75%;
+          min-height: 12%;
+          max-height: 10%;
+          margin-top: -1rem;
+        }
+
+        .skill__front__item, .skill__back__item, .skill__env__item{
+          min-width: 20%;
+          max-width: 15%;
+          align-self: center;
+          display: block;
+        }
+  
+        .skill__env__list, .skill__back__list, .skill__front__list{
+          display: flex;
+          flex-wrap: wrap;
+        }
+
+        .skill__back__item, .skill__front__item {
+          min-width: 25%;
+          align-self: center;
+        }
+
+}
+
+
+
+@media only screen and (max-width: 550px) {
+.skill__env__item{
+  min-width: 22%;
+  align-self: center;
+}
+
+.skill__back__item{
+margin-bottom: 2.5rem;
+}
+
+.skill__env__item{
+  margin-top: 1.5rem;
+}
+
+.skill__env {
+  line-height: 2rem;
+}
+
+}
+
+@media only screen and (max-width: 450px) {
+
+  .intro{
+    max-height: 30vh;
+  }
+
+  .work__head {
+    margin-top: -1rem;
+  }
+
+  .intro__name {
+    margin-top: -5rem;
+  }
+
+  .intro__contact__p{
+    margin-top: 0rem;
+  }
+
+  .intro__skills__section {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .arrows__img{
+    margin-top: 1.5rem;
+  }
+
+
+  .work__container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-height: 100vh;
+    font-size: 0.9rem;
+    min-width: 100%;
+  }
+
+  .browser__one, .browser__two, .browser__three{
+    min-width: 75%;
+    min-height: 10%;
+    max-height: 10%;
+    margin-top: -1rem;
+  }
+
+  .skill__front__item, .skill__back__item, .skill__env__item{
+    max-width: 35%;
+    align-self: center;
+    display: block;
+  }
+
+  .skill__env__list, .skill__back__list, .skill__front__list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skill__back__item, .skill__front__item {
+    min-width: 25%;
+    align-self: center;
+  }
+  .contact{
+    min-height: 80vh;
+    padding: 1rem;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+
+  .intro{
+    max-height: 30vh;
+  }
+
+  .work__head {
+    margin-top: -1rem;
+  }
+
+  .intro__name {
+    margin-top: -5rem;
+  }
+
+  .intro__contact__p{
+    margin-top: 0rem;
+  }
+
+  .intro__skills__section {
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+  }
+
+  .arrows__img{
+    margin-top: 0.8rem;
+  }
+
+  .skill__front__item, .skill__back__item, .skill__env__item{
+    max-width: 45%;
+    align-self: center;
+    display: block;
+  }
+
+  .skill__env__list, .skill__back__list, .skill__front__list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skill__back__item, .skill__front__item {
+    min-width: 25%;
+    align-self: center;
+    margin-top: 1.5rem;
+  }
+
+  .skill__back__list{
+    margin:0;
+  }
+
+.skill__back, .skill__front{
+  line-height: 2rem;
+  margin-top: 1.5rem;
+ }
+}
+
+
+@media only screen and (max-width: 320px) {
+
+  .intro{
+    max-height: 30vh;
+  }
+
+  .work__head {
+    margin-top: 0rem;
+  }
+
+  .intro__name, .intro__line, .typewrite {
+    font-size: 1.2rem;
+  }
+  .intro__contact__p{
+    margin-top: 0rem;
+  }
+
+  .intro__skills__section {
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+  }
+
+  .arrows__img{
+    margin-top: 0.8rem;
+  }
+
+  .skill__front__item,.skill__back__item, .skill__env__item{
+    max-width: 50%;
+    padding: 0.2rem;
+  }
+
+  .skill__env__list, .skill__back__list, .skill__front__list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skill__back__item, .skill__front__item {
+    min-width: 10%;
+    align-self: center;
+    margin-top: 1.5rem;
+  }
+
+.skill__back, .skill__front{
+  line-height: 2rem;
+  margin-top: 1.5rem;
+ }
+
+ .skills{
+   padding: -2rem;
+ }
+
+ .skill__front, .skill__back, .skill__env{
+   font-size: 1rem;
+ }
+
+ .skills__head{
+   font-size: 1.4rem;
+ }
 
 }
