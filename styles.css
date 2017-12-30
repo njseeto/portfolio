@@ -147,7 +147,8 @@ ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  min-height: 65vh;
+  justify-content: center;
+  min-height: 70vh;
   font-size: 0.9rem;
   min-width: 100%;
 }
@@ -169,7 +170,7 @@ ul {
     position: relative;
     border-radius: 3px 3px 0 0;
     max-height: 20vh;
-    max-width: 40%;
+    max-width: 25%;
     margin: 2em;
     flex: 1;
   }
@@ -250,7 +251,7 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    min-height: 160vh;
+    min-height: 180vh;
     font-size: 0.9rem;
     min-width: 100%;
     margin-top: -14rem;
@@ -295,7 +296,7 @@ ul {
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
-      min-height: 150vh;
+      min-height: 170vh;
       font-size: 0.9rem;
       min-width: 100%;
     }
@@ -335,7 +336,7 @@ ul {
       flex-direction: column;
       flex-wrap: wrap;
       justify-content: space-around;
-      min-height: 200vh;
+      min-height: 240vh;
       font-size: 0.9rem;
       min-width: 100%;
     }
@@ -424,9 +425,10 @@ ul {
           flex-direction: column;
           flex-wrap: wrap;
           justify-content: space-around;
-          min-height: 190vh;
+          min-height: 220vh;
           font-size: 0.9rem;
           min-width: 100%;
+          
         }
       
         .browser__one, .browser__two, .browser__three{
@@ -484,13 +486,25 @@ ul {
 .browser__three{
   margin-bottom: 5rem;
 }
+.skill__back__item{
+  margin-top: -1.8rem;
+}
+.skill__back__list{
+  margin-top: 2rem;
+}
+.skill__env__item{
+  margin-top: 0.2rem;
+}
+.skill__env__list{
+  margin-top: 1.5rem;
+}
 
 }
 
 @media only screen and (max-width: 450px) {
 
   .work__container{
-    min-height: 180vh;
+    min-height: 190vh;
   }
 
   .skill__front__item, .skill__back__item, .skill__env__item{
@@ -540,17 +554,32 @@ ul {
   .skill__back__item, .skill__front__item {
     min-width: 25%;
     align-self: center;
-    margin-top: 1.5rem;
+  }
+
+  .skill__front__item {
+    margin-top: 0.2rem;
+  }
+  
+  .skill__front__list{
+    margin-top: 1rem;
+  }
+
+  .skill__back__item{
+  margin-top: -2rem;
   }
 
   .skill__back__list{
-    margin:0;
+    margin-top: 3rem;;
   }
 
 .skill__back, .skill__front{
   line-height: 2rem;
   margin-top: 1.5rem;
  }
+
+ .work__container{
+  min-height: 165vh;
+}
 
 }
 
@@ -613,6 +642,9 @@ ul {
  .skills__head{
    font-size: 1.4rem;
  }
+ .work__container{
+  min-height: 200vh;
+}
 
 }
 
@@ -676,6 +708,8 @@ ul {
    font-size: 1.4rem;
  }
 
- /* need to add responsiveness for images in work section */
+ .work__container{
+  min-height: 220vh;
+}
 
 }
