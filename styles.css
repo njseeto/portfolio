@@ -122,7 +122,7 @@ ul {
   align-content: space-around;
 }
 
-.skill__front__item, .skill__back__item, .skill__env__item {
+.skill__front__item, .skill__back__item, .skill__env__item, .skill__back__item_my, .skill__back__item_socket, .skill__back__item_api {
   font-size: 0.8rem;
   border-radius: 3px;
   border: 1px solid #fff;
@@ -435,7 +435,7 @@ ul {
           max-height: 10%;
         }
 
-        .skill__front__item, .skill__back__item, .skill__env__item{
+        .skill__front__item, .skill__back__item, .skill__env__item, .skill__back__item_my, .skill__back__item_socket, .skill__back__item_api{
           min-width: 20%;
           max-width: 15%;
           align-self: center;
@@ -447,7 +447,7 @@ ul {
           flex-wrap: wrap;
         }
 
-        .skill__back__item, .skill__front__item {
+        .skill__back__item, .skill__front__item, .skill__back__item_my, .skill__back__item_socket, .skill__back__item_api {
           min-width: 25%;
           align-self: center;
         }
@@ -459,19 +459,13 @@ ul {
 @media only screen and (max-width: 550px) {
 .skill__env__item{
   min-width: 22%;
+  margin-top: 1rem;
   align-self: center;
-}
-
-.skill__back__item{
-margin-bottom: 2.5rem;
-}
-
-.skill__env__item{
-  margin-top: 1.5rem;
 }
 
 .skill__env {
   line-height: 2rem;
+  margin-top: 1.5rem;
 }
 
 .work__container{
@@ -497,9 +491,8 @@ margin-bottom: 2.5rem;
 
   .work__container{
     min-height: 180vh;
-
   }
-  
+
   .skill__front__item, .skill__back__item, .skill__env__item{
     max-width: 35%;
     align-self: center;
@@ -588,7 +581,7 @@ margin-bottom: 2.5rem;
     margin-top: 0.8rem;
   }
 
-  .skill__front__item,.skill__back__item, .skill__env__item{
+  .skill__front__item,.skill__back__item, .skill__back__item_my, .skill__back__item_socket, .skill__back__item_api.skill__env__item{
     max-width: 50%;
     padding: 0.2rem;
   }
