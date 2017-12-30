@@ -147,7 +147,7 @@ ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  min-height: 70vh;
+  min-height: 65vh;
   font-size: 0.9rem;
   min-width: 100%;
 }
@@ -157,6 +157,10 @@ ul {
     text-decoration: underline;
     min-width: 100%;
     line-height: 5rem;
+  }
+
+  h3{
+    padding-top: 1rem;
   }
 
   .browser__one, .browser__two, .browser__three{
@@ -246,7 +250,7 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    min-height: 180vh;
+    min-height: 160vh;
     font-size: 0.9rem;
     min-width: 100%;
     margin-top: -14rem;
@@ -291,13 +295,9 @@ ul {
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
-      min-height: 180vh;
+      min-height: 150vh;
       font-size: 0.9rem;
       min-width: 100%;
-    }
-
-    .work__head {
-      margin-top: 1.5rem;
     }
   
     .browser__one, .browser__two, .browser__three{
@@ -335,21 +335,33 @@ ul {
       flex-direction: column;
       flex-wrap: wrap;
       justify-content: space-around;
-      min-height: 290vh;
+      min-height: 200vh;
       font-size: 0.9rem;
       min-width: 100%;
     }
   
     .work__head {
       margin-top: 1.5rem;
-      margin-bottom: 7.5rem;
+      margin-bottom: 10rem;
     }
   
     .browser__one, .browser__two, .browser__three{
-      min-width: 60%;
-      min-height: 10%;
+      min-width: 75%;
+      min-height: 15%;
       max-height: 10%;
-      margin-top: -2rem;
+    }
+
+    .browser__one{
+      margin-top: -13rem;
+      margin-bottom: -23rem;
+    }
+
+    .browser__two {
+      margin-bottom: -5rem;
+    }
+
+    .browser__three{
+      margin-bottom: -1rem;
     }
 
   }
@@ -377,7 +389,7 @@ ul {
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-around;
-        min-height: 290vh;
+        min-height: 220vh;
         font-size: 0.9rem;
         min-width: 100%;
       }
@@ -386,7 +398,6 @@ ul {
         min-width: 75%;
         min-height: 15%;
         max-height: 10%;
-        margin-top: -1rem;
       }
 
       .skill__front__item, .skill__back__item, .skill__env__item{
@@ -413,7 +424,7 @@ ul {
           flex-direction: column;
           flex-wrap: wrap;
           justify-content: space-around;
-          min-height: 280vh;
+          min-height: 190vh;
           font-size: 0.9rem;
           min-width: 100%;
         }
@@ -422,7 +433,6 @@ ul {
           min-width: 75%;
           min-height: 12%;
           max-height: 10%;
-          margin-top: -1rem;
         }
 
         .skill__front__item, .skill__back__item, .skill__env__item{
@@ -464,27 +474,32 @@ margin-bottom: 2.5rem;
   line-height: 2rem;
 }
 
+.work__container{
+  min-height: 190vh;
+}
+
+.browser__one{
+  margin-top: -8rem;
+  margin-bottom: -10rem;
+}
+
+.browser__two{
+  margin-bottom: 8rem;
+}
+
+.browser__three{
+  margin-bottom: 5rem;
+}
+
 }
 
 @media only screen and (max-width: 450px) {
 
   .work__container{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    max-height: 100vh;
-    font-size: 0.9rem;
-    min-width: 100%;
-  }
+    min-height: 180vh;
 
-  .browser__one, .browser__two, .browser__three{
-    min-width: 75%;
-    min-height: 10%;
-    max-height: 10%;
-    margin-top: -1rem;
   }
-
+  
   .skill__front__item, .skill__back__item, .skill__env__item{
     max-width: 35%;
     align-self: center;
@@ -543,6 +558,7 @@ margin-bottom: 2.5rem;
   line-height: 2rem;
   margin-top: 1.5rem;
  }
+
 }
 
 
