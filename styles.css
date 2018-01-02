@@ -13,7 +13,7 @@ html{
   right:0;
   bottom:0;
   width:100vw;
-  height:500vh;
+  height:800vh;
   display:block;
   z-index: 0;
 }
@@ -24,9 +24,9 @@ html{
 
 .twinkling{
   background:transparent url(assets/twinkling.png) repeat top center;
-  -moz-animation:move-twink-back 700s linear infinite; /* Firefox */
-  -webkit-animation:move-twink-back 700s linear infinite; /* Chrome, Safari, Opera */ 
-  animation: move-twink-back 700s linear infinite;
+  -moz-animation:move-twink-back 650s linear infinite; /* Firefox */
+  -webkit-animation:move-twink-back 650s linear infinite; /* Chrome, Safari, Opera */ 
+  animation: move-twink-back 650s linear infinite;
   z-index: 0;
 }
 
@@ -51,7 +51,7 @@ html{
   flex-direction: row;
   justify-content: center;
   position: relative;
-  min-height: 80vh;
+  max-height: 80vh;
   max-width: 100vw;
   background-repeat: no-repeat;
 }
@@ -65,11 +65,11 @@ html{
   filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0.25));
   color: #00a1ed;
   animation: noise 0.8s linear infinite;
-  min-height: 60vh;
-  min-width: 80vw;
+  min-height: 50vh;
+  min-width: 70vw;
   border: 1px solid #00a1ed;
   margin: 10rem;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* CRT Effect */
@@ -245,20 +245,19 @@ html{
 .intro__line{
   position: absolute;
   min-width: 50vw;
-  margin-top: 10rem;
+  margin-top: 4rem;
+  padding: 4rem;
 }
 
 .typewrite{
   position: absolute;
-  margin-top: 13rem;
-  margin-left: 1rem;
+  margin-top: 11rem;
 }
 
 .intro__contact__p{
   align-self: center;
   color: #00a1ed;
-  margin-top: 16.5rem;
-  margin-left: 1rem;
+  margin-top: 15rem;
   border: 1.5px solid #00a1ed;
   padding: 0.5rem;
 }
@@ -269,37 +268,43 @@ a:visited {
 
 
 /* NAR skills */
+
+.nar__break{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  min-height: 50vh;
+}
+
+.nar__img{
+  align-self: center;
+  z-index: 1;
+  position: absolute;
+}
+
 .nar{
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
   min-height: 80vh;
-  
-}
-
-.nar__img{
-  margin-top: 3rem;
-  margin-left: 3rem;
-  z-index: 1;
-  position: absolute;
+  margin-top: 2rem;
 }
 
 .skills__head {
-  left: 12rem;
-  margin-top: -5rem;
   color: #bee7f7;
 }
 
 .skill__front, .skill__back, .skill__env {
   font-size: 1.2rem;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Open Sans', sans-serif;
   color: #00a1ed;
   min-width: 100%;
   line-height: 2rem;
   padding: 5;
   margin: 0;
-  margin-left: 12rem;
   list-style: none;
   display: flex;
   flex-direction: row; 
@@ -313,12 +318,11 @@ ul {
   list-style-type: none;
   padding: 0;
   align-content: space-around;
-  margin-left: 25rem;
 }
 
 .skill__front__item, .skill__back__item, .skill__env__item {
   font-size: 0.8rem;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Open Sans', sans-serif;
   border-radius: 3px;
   border: 1px solid #00a1ed;
   max-width: 7rem;
@@ -326,83 +330,87 @@ ul {
   padding: 0.5rem;
   line-height: 1rem;
   text-align: center;
-  margin: 6px;
+  margin: 0.3rem;
 }
 
-.skill__env__list{
-  left: 12rem;
-}
+/* JUPITER */
 
-
-/* JUPITER work */
-.jupiter{
-  left: 5rem;
+.jupiter__break{
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
-  min-height: 100vh;
+  min-height: 60vh;
 }
 
 .jupiter__img{
+  align-self: center;
+  z-index: 1;
   position: absolute;
-  z-index: 1;
-}
-
-
-.earth{
-  left: 20rem;
-  margin-bottom: 10rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  min-height: 100vh;
-  min-width: 100vw;
-  background-image: url(assets/earth.png);
-  background-repeat: no-repeat;
-  z-index: 1;
+  margin-top: -5rem;
 }
 
 /* WORK */
 .work {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; 
-  justify-content: space-around;
-  background-color:#DB504A;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  min-height: 50vh;
   }
 
 .work__container{
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   font-size: 0.9rem;
-  min-height: 90vh;
-  min-width: 100%;
+  min-height: 270vh;
+  min-width: 80%;
   color: #00a1ed;
 }
   .work__head{
-    margin-top: 3rem;
-    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5rem;
+    font-size: 1.8rem;
     text-decoration: underline;
     min-width: 100%;
-    line-height: 5rem;
+    z-index: 1;
   }
 
   h3{
-    padding-top: 1rem;
+    margin-top: 8rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .browser__one, .browser__two, .browser__three{
     box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
     position: relative;
     border-radius: 3px 3px 0 0;
-    max-height: 23.5vh;
-    max-width: 25%;
-    margin: 2em;
+    max-height: 74%;
+    min-width: 50%;
+    max-width: 50%;
+    align-self: center;
     flex: 1;
+    margin: 2rem;
+    margin-top: -17rem;
+  }
+  
+  .browser__two{
+    margin-top: -20rem;
+  }
+
+  .browser__three{
+    margin-top: -18rem;
   }
 
   
@@ -425,19 +433,47 @@ ul {
 
   .work__text{
     padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    border: 1px solid #00a1ed;
+    background: #2287da50;
+    background-repeat: no-repeat;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0.25));
+    filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0.25));
+    color: #00a1ed;
+    animation: noise 0.3s linear infinite;
   }
 
-  h3{
-    font-weight: bold;
+  /* EARTH */
+
+  .earth__break{
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
+    max-width: 50vw;
+  }
+  
+  .earth__img{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
   }
 
-
+/* CONTACT */
+.contact{
+  font-family: 'Open Sans', sans-serif;
+  color: #00a1ed;
+  min-height: 90vh;
+  min-width: 100vw;
+  z-index: 1;
+}
 
 /* GLITCH EFFECT */
 
 
 #glitch {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Open Sans', sans-serif;
   color: #00a1ed;
   font-size: 2rem;
   position: relative;
