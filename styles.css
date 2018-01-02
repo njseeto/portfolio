@@ -13,7 +13,7 @@ html{
   right:0;
   bottom:0;
   width:100vw;
-  height:800vh;
+  height:720vh;
   display:block;
   z-index: 0;
 }
@@ -258,12 +258,23 @@ html{
   align-self: center;
   color: #00a1ed;
   margin-top: 15rem;
-  border: 1.5px solid #00a1ed;
-  padding: 0.5rem;
+  border: 1px solid #00a1ed;
+  padding: 0.2rem;
 }
 
 a:visited { 
   text-decoration: none; color: #00a1ed;
+}
+
+a{
+  text-decoration: none; color: #00a1ed;
+}
+
+a:hover{
+  /* text-decoration: underline; */
+  color: white;
+  box-shadow: inset 0 0 0 0.05em white;
+  padding: 0.2rem;
 }
 
 
@@ -331,7 +342,27 @@ ul {
   line-height: 1rem;
   text-align: center;
   margin: 0.3rem;
+  background: #2287da50;
+  background-repeat: no-repeat;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0.25));
+  filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0.25));
+  color: #00a1ed;
 }
+
+/* Different noise timings */
+.skill__front__item {
+  animation: noise 1s linear infinite;
+}
+
+.skill__back__item {
+  animation: noise 1.5s linear infinite;
+}
+
+.skill__env__item {
+  animation: noise 0.5s linear infinite;
+}
+
+
 
 /* JUPITER */
 
@@ -344,7 +375,7 @@ ul {
 }
 
 .jupiter__img{
-  align-self: center;
+  align-self: flex-end;
   z-index: 1;
   position: absolute;
   margin-top: -5rem;
@@ -376,7 +407,6 @@ ul {
     flex-wrap: wrap;
     justify-content: center;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 5rem;
     font-size: 1.8rem;
     text-decoration: underline;
     min-width: 100%;
@@ -438,8 +468,8 @@ ul {
     border: 1px solid #00a1ed;
     background: #2287da50;
     background-repeat: no-repeat;
-    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0.25));
-    filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0.25));
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0));
+    filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0));
     color: #00a1ed;
     animation: noise 0.3s linear infinite;
   }
@@ -448,30 +478,60 @@ ul {
 
   .earth__break{
     display: flex;
-    justify-content: center;
-    min-height: 90vh;
-    max-width: 50vw;
+    justify-content: flex-start;
   }
   
   .earth__img{
-    display: flex;
-    justify-content: center;
     z-index: 1;
     position: relative;
   }
 
 /* CONTACT */
-.contact{
+.contact {
+  margin-top: 5rem;
+  margin-left: 15rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-family: 'Open Sans', sans-serif;
   color: #00a1ed;
-  min-height: 90vh;
-  min-width: 100vw;
-  z-index: 1;
+  max-height: 70vh;
+  min-width: 60vw;
+  max-width: 60vw;
+  border-radius: 3px;
+  border: 1px solid #00a1ed;
+  background: #2287da50;
+  background-repeat: no-repeat;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0.25));
+  filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0.25));
+  color: #00a1ed;
+  animation: noise 5s linear infinite;
 }
 
+.socialmedia__icons{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+}
+
+i{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.contact__email{
+  border: 1px solid #00a1ed;
+  padding: 0.3rem;
+}
+
+
+
 /* GLITCH EFFECT */
-
-
 #glitch {
   font-family: 'Open Sans', sans-serif;
   color: #00a1ed;
@@ -494,69 +554,27 @@ ul {
 }
 
 @keyframes noise-anim-2 {
-  0% {
-    clip: rect(93px, 9999px, 57px, 0);
-  }
-  5% {
-    clip: rect(22px, 9999px, 5px, 0);
-  }
-  10% {
-    clip: rect(54px, 9999px, 44px, 0);
-  }
-  15.0% {
-    clip: rect(24px, 9999px, 40px, 0);
-  }
-  20% {
-    clip: rect(88px, 9999px, 85px, 0);
-  }
-  25% {
-    clip: rect(95px, 9999px, 86px, 0);
-  }
-  30.0% {
-    clip: rect(62px, 9999px, 6px, 0);
-  }
-  35% {
-    clip: rect(64px, 9999px, 39px, 0);
-  }
-  40% {
-    clip: rect(2px, 9999px, 85px, 0);
-  }
-  45% {
-    clip: rect(94px, 9999px, 58px, 0);
-  }
-  50% {
-    clip: rect(46px, 9999px, 8px, 0);
-  }
-  55.0% {
-    clip: rect(65px, 9999px, 52px, 0);
-  }
-  60.0% {
-    clip: rect(7px, 9999px, 59px, 0);
-  }
-  65% {
-    clip: rect(85px, 9999px, 75px, 0);
-  }
-  70% {
-    clip: rect(40px, 9999px, 19px, 0);
-  }
-  75% {
-    clip: rect(53px, 9999px, 54px, 0);
-  }
-  80% {
-    clip: rect(17px, 9999px, 37px, 0);
-  }
-  85.0% {
-    clip: rect(87px, 9999px, 59px, 0);
-  }
-  90% {
-    clip: rect(37px, 9999px, 77px, 0);
-  }
-  95% {
-    clip: rect(36px, 9999px, 53px, 0);
-  }
-  100% {
-    clip: rect(80px, 9999px, 94px, 0);
-  }
+  0% { clip: rect(93px, 9999px, 57px, 0);}
+  5% { clip: rect(22px, 9999px, 5px, 0);}
+  10% {clip: rect(54px, 9999px, 44px, 0);}
+  15% {clip: rect(24px, 9999px, 40px, 0);}
+  20% {clip: rect(88px, 9999px, 85px, 0);}
+  25% {clip: rect(95px, 9999px, 86px, 0);}
+  30.0% {clip: rect(62px, 9999px, 6px, 0);}
+  35% {clip: rect(64px, 9999px, 39px, 0);}
+  40% {clip: rect(2px, 9999px, 85px, 0);}
+  45% {clip: rect(94px, 9999px, 58px, 0);}
+  50% {clip: rect(46px, 9999px, 8px, 0);}
+  55% {clip: rect(65px, 9999px, 52px, 0);}
+  60% {clip: rect(7px, 9999px, 59px, 0);}
+  65% {clip: rect(85px, 9999px, 75px, 0);}
+  70% {clip: rect(40px, 9999px, 19px, 0);}
+  75% {clip: rect(53px, 9999px, 54px, 0);}
+  80% {clip: rect(17px, 9999px, 37px, 0);}
+  85% {clip: rect(87px, 9999px, 59px, 0);}
+  90% {clip: rect(37px, 9999px, 77px, 0);}
+  95% {clip: rect(36px, 9999px, 53px, 0);}
+  100% {clip: rect(80px, 9999px, 94px, 0);}
 }
 
 #glitch:before {
@@ -573,34 +591,7 @@ ul {
 }
 
 
-
-.skill__front__item {
-  background: #2287da50;
-  background-repeat: no-repeat;
-  -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0.25));
-  filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0.25));
-  color: #00a1ed;
-  animation: noise 1s linear infinite;
-}
-
-.skill__back__item {
-  background: #2287da50;
-  background-repeat: no-repeat;
-  -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0.25));
-  filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0.25));
-  color: #00a1ed;
-  animation: noise 1.5s linear infinite;
-}
-
-.skill__env__item {
-  background: #2287da50;
-  background-repeat: no-repeat;
-  -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0.25));
-  filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0.25));
-  color: #00a1ed;
-  animation: noise 0.5s linear infinite;
-}
-
+/* Noise for blue box/hologram */
 @keyframes noise {
   0%,3%,5%,42%,44%,100% {opacity: 1; transform: scaleX(1);}
   4.3% {opacity: 1; transform: scaleY(1);}
