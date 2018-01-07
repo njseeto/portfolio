@@ -353,19 +353,14 @@ ul {
 .skill__front__item {
   animation: noise 1s linear infinite;
 }
-
 .skill__back__item {
   animation: noise 1.5s linear infinite;
 }
-
 .skill__env__item {
   animation: noise 0.5s linear infinite;
 }
 
-
-
 /* JUPITER */
-
 .jupiter__break{
   display: flex;
   flex-direction: column;
@@ -408,7 +403,7 @@ ul {
     justify-content: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.8rem;
-    text-decoration: underline;
+
     min-width: 100%;
     z-index: 1;
   }
@@ -426,7 +421,7 @@ ul {
     box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
     position: relative;
     border-radius: 3px 3px 0 0;
-    max-height: 74%;
+    max-height: 78%;
     min-width: 50%;
     max-width: 50%;
     align-self: center;
@@ -442,19 +437,6 @@ ul {
   .browser__three{
     margin-top: -18rem;
   }
-
-  
-  /* uncomment below if prefer work to be less crt */
-  /* .browser__one:before, .browser__two:before, .browser__three:before{
-    display: block;
-    position: absolute;
-    content: '';
-    top: -1.25em;
-    left: 1em;
-    width: 0.5em;
-    height: 0.5em;
-    border-radius: 50%;
-  } */
 
   img {
     max-width: 100%;
@@ -487,11 +469,12 @@ ul {
   }
 
 /* CONTACT */
-.contact {
+.contact{
   margin-top: 5rem;
-  margin-left: 15rem;
-  position: absolute;
+  margin-left: 18rem;
+  position: relative;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -508,6 +491,7 @@ ul {
   filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0.25));
   color: #00a1ed;
   animation: noise 5s linear infinite;
+  text-align:center;
 }
 
 .socialmedia__icons{
@@ -529,6 +513,9 @@ i{
   padding: 0.3rem;
 }
 
+.socialmedia{
+  text-align: center;
+}
 
 
 /* GLITCH EFFECT */
@@ -596,4 +583,255 @@ i{
   0%,3%,5%,42%,44%,100% {opacity: 1; transform: scaleX(1);}
   4.3% {opacity: 1; transform: scaleY(1);}
   43% {opacity: .3; transform: scaleX(0) rotate(0deg);}
+}
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1255px){
+  .contact{
+    margin-left: 15rem;
+}
+
+@media only screen and (max-width: 1200px){
+  .contact{
+    margin-left: 13rem;
+}
+
+@media only screen and (max-width: 1100px){
+  .contact{
+    margin-left: 11rem;
+  }
+}
+@media only screen and (max-width: 1000px){
+  .contact{
+    margin-left: 11rem;
+  }
+  .browser__one, .browser__two, .browser__three{
+    max-height: 78%;
+    min-width: 80%;
+    margin: 2rem;
+    margin-top: -12rem;
+  }
+
+  .earth__break{
+    display: flex;
+    justify-content: center;
+  }
+
+  .earth__img{
+    margin-top: 5rem;
+    height: 35rem;
+  }
+}
+  @media only screen and (max-width: 900px){
+    .mars {
+      margin-top: -7rem;
+      min-height: 60vh;
+    }
+
+    .intro__line{
+      text-align: center;
+    }
+
+    .intro__typewriter{
+      text-align: center;
+      margin-top: 4rem;
+    }
+
+    .intro__contact__p{
+      margin-top: 18rem;
+      text-align: center;
+    }
+
+    .nar__img{
+      height: 50vh;
+      margin-top: 2rem;
+    }
+
+    .jupiter__img{
+      align-self: center;
+    }
+
+    .earth__break{
+      display: flex;
+      justify-content: center;
+    }
+
+    .earth__img{
+      margin-top: 5rem;
+      height: 30rem;
+    }
+    
+    .contact{
+      margin-left: 9rem;
+      padding: 1rem;
+      max-height: 70vh;
+    }  
+
+    .stars, .twinkling {
+      height: 700vh;
+    }
+
+    .browser__one, .browser__two, .browser__three{
+      margin-top: -12rem;
+    }
+
+  }
+    @media only screen and (max-width: 800px){
+      .mars {
+        margin-top: -7rem;
+        min-height: 75vh;
+      }
+
+      .intro__typewriter{
+        margin-right: 1rem;
+      }
+
+      .contact{
+        margin-top: 8rem; 
+        margin-left: 7.5rem;
+      }
+    }
+
+    @media only screen and (max-width: 700px){
+      .mars {
+        margin-top: -7rem;
+        min-height: 95vh;
+      }
+      .mars__div{
+        height: 70vh;
+      }
+      .intro__typewriter{
+        margin-right: 1rem;
+        margin-top: 6rem;
+      }
+      .contact{
+        margin-top: 4.5rem;
+        margin-left: 5.5rem;
+    }
+
+    .browser__two {
+      margin-top: -20rem;
+    }
+
+    .earth__img{
+      height: 25rem;
+      margin-top: -5rem;
+    }
+
+    .jupiter__img{
+      margin-top: 0.1rem;
+    }
+
+    .skill__env__list, .skill__back__list, .skill__front__list{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .skill__env__item, .skill__back__item{
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 20%;
+    }
+    .skill__env{
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .browser__one{
+      margin-bottom: 10rem;
+    }
+  }
+
+  @media only screen and (max-width: 500px){
+    .mars {
+      margin-top: -7rem;
+      min-height: 90vh;
+    }
+    .mars__div{
+      height: 65vh;
+    }
+    .contact{
+      margin-left: 3.5rem;
+  }
+
+  .browser__one{
+    margin-top: -20rem;
+  }
+  .browser__two{
+    margin-top: -25rem;
+  }
+
+  .browser__three{
+    margin-top: -22rem;
+  }
+
+  .earth__img{
+    width: 20rem;
+    height: 20rem;
+    margin-top: -2rem;
+  }
+
+  .skill__env__list, .skill__back__list, .skill__front__list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skill__env__item, .skill__back__item{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 20%;
+  }
+
+  .stars, .twinkling{
+  max-height: 695vh;
+  }
+}
+
+@media only screen and (max-width: 400px){
+.mars__div{
+  min-width: 90vw;
+  height: 70vh;
+  margin-top: 10rem;
+}
+.mars{
+  min-height: 95vh;
+}
+.browser__two{
+  margin-top: -40rem;
+}
+
+.browser__three{
+  margin-top: -38rem;
+}
+
+.earth__img{
+  width: 20rem;
+  height: 20rem;
+  margin-top: -8rem;
+}
+.nar__img{
+  height: 40vh;
+  margin-top: 1.5rem;
+}
+.nar__break{
+  min-height: 40vh;
+}
+.jupiter__img{
+  margin-top: -2rem;
+}
+.jupiter__break{
+  min-height: 50vh;
+}
+
+.browser__one{
+  margin-top: -22rem;
+}
+.browser__two{
+  margin-top: -48rem;
+}
+.browser__three{
+  margin-top: -40rem;
+}
+.stars, .twinkling{
+max-height: 655vh;
+}
 }
