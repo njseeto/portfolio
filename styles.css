@@ -74,10 +74,12 @@ a:hover {
     margin-top: 2rem;
     font-size: 1.5rem;
 }
+
 .intro__contact_hello{
     border: 1px solid black;
     padding: 0.2rem;
 }
+
 .intro__space{
     padding: 0.2rem;
     margin-top: 2rem;
@@ -133,7 +135,7 @@ a:hover {
     .skill__front__item, .skill__back__item, .skill__env__item, .skill__back__item_my, .skill__back__item_socket, .skill__back__item_api {
       font-size: 0.9rem;
       border-radius: 3px;
-      border: 1px solid black;;
+      border: 1px solid black;
       max-width: 7rem;
       max-height: 3rem;
       padding: 0.5rem;
@@ -183,7 +185,6 @@ a:hover {
         }
       
         .work__text{
-
           font-size: 1.2rem;
           padding: 2.5rem;
         }
@@ -210,13 +211,15 @@ a:hover {
     text-decoration: underline;
     font-size: 1.6rem;
     }
+
     .contact__p{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         line-height: 3rem;
     }
-    .socialmedia {
+
+    .socialmedia{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -238,6 +241,6 @@ a:hover {
       border: 1px solid black;
     }
 
-    i {
+    i{
         padding:1.2rem;
     }
