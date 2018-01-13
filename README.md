@@ -5,6 +5,7 @@ This is my personal portfolio, feel free to check it out.
 ### A quick outline of skills and contributions
 
 **Programming Languages**
+
 _Front-End Development_
 
 JavaScript | jQuery | SASS | React.js
