@@ -20,9 +20,9 @@ body {
 }
 
 
-/*General */
-
+/*GENERAL*/
 a {
+    color:black;
     text-decoration: none;
 }
 
@@ -30,18 +30,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.intro{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-/***********************************************
-  $navbar
-***********************************************/
-
+/* NAVBAR */
 .navbar {
     padding: 1rem 0;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
@@ -57,14 +46,198 @@ a:hover {
     padding: 0;
 }
 
-
-/* Footer */
-.footer__container {
+/* HOME */
+.intro{
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    width: 100%;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
+.intro__name{
+    margin-top: 10rem;
+}
+
+.intro__line{
+    margin-top: 3rem;
+}
+
+.intro__typewriter{
+    padding: 2rem;
+    margin-top: 2rem;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.intro__contact{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.intro__contact_hello{
+    border: 1px solid black;
+    padding: 0.2rem;
+}
+.intro__space{
+    padding: 0.2rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    border: 1px solid black;
+  }
+
+/* SKILL */
+.skills {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 100vw;
+    min-height: 70vh;
+    padding: 5rem;
+    padding-bottom: 7rem;
+    }
+    
+    
+    .skills__head {
+      display: flex;
+      justify-content: center;
+      line-height: 3rem;
+      text-decoration: underline;
+    }
+    
+    .skills__text {
+      color: black;
+    }
+    
+    .skill__front, .skill__back, .skill__env {
+      font-size: 1.2rem;
+      min-width: 100%;
+      line-height: 5rem;
+      padding: 5;
+      margin: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: row; 
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    
+    ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      padding: 0;
+      align-content: space-around;
+    }
+    
+    .skill__front__item, .skill__back__item, .skill__env__item, .skill__back__item_my, .skill__back__item_socket, .skill__back__item_api {
+      font-size: 0.9rem;
+      border-radius: 3px;
+      border: 1px solid black;;
+      max-width: 7rem;
+      max-height: 3rem;
+      padding: 0.5rem;
+      line-height: 1rem;
+      text-align: center;
+      margin: 6px;
+    }
+
+    /* WORK */
+
+    .work {
+        padding: 3rem;
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        }
+      .work__title{
+          font-size: 1.5rem;
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+          align-content: center;
+      }
+      .work__container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-height: 100vh;
+        font-size: 0.9rem;
+        max-width: 60%;
+      }
+        .work__head{
+          display: flex;
+          justify-content: center;
+          font-size: 1.5rem;
+          text-decoration: underline;
+          min-width: 100%;
+          line-height: 3rem;
+        }
+      
+        .browser__one, .browser__two, .browser__three{
+          box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
+        }
+      
+        img {
+          max-width: 100%;
+          max-height: 100%
+        }
+      
+        .work__text{
+
+          font-size: 1.2rem;
+          padding: 2.5rem;
+        }
+
+/* CONTACT */
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 100vw;
+    min-height: 60vh;
+    font-size: 1.2rem;
+    }
+  
+    .contact__email{
+      align-self: center;
+    }
+  
+    .contact__text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 5rem;
+    text-decoration: underline;
+    font-size: 1.6rem;
+    }
+    .contact__p{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        line-height: 3rem;
+    }
+    .socialmedia {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 3rem;
+    }
+  
+    .socialmedia__icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 2rem;
+
+    }
+  
+    .contact__email{
+      margin-top: 2rem;
+      padding: 0.2rem;
+      border-radius: 3px;
+      border: 1px solid black;
+    }
+
+    i {
+        padding:1.2rem;
+    }
