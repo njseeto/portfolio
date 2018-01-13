@@ -10,6 +10,25 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</head>
 	
+    <header class="navbar">
+        <nav class="navbar__nav" role="navigation">
+            <ul class="navbar__list">
+                <li class="navbar__title">
+                    <a href="/"><h3>Home</h3></a>
+                </li>
+                <li class="navbar__skills">
+                    <a href="skills.html">Skills</a>
+                </li>
+                <li class="navbar__work">
+                    <a href="work.html">Work</a>
+				</li>
+				<li class="navbar__contact">
+                    <a href="contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
 	<body>
 	<section class="intro">
 				<h1 class="intro__name">Hello, my name is Nat.</h1>
@@ -20,76 +39,9 @@
 						</p>
 					</h1>
 					<p class="intro__contact__p">
-							<a href=#contact class="intro__contact">Say hello </a>
+							<a href=contact.html class="intro__contact">Say hello </a>
 						</p>
 	</section>
-
-	<section class="skills">
-			<h1 class="skills__head" data-text="My Skills">My Skills</h1>
-			<p class="skill__front" >Front-end development</p>
-				<ul class="skill__front__list">
-					<li class="skill__front__item">HTML5</li>
-					<li class="skill__front__item">CSS3</li>
-					<li class="skill__front__item">JavaScript</li>
-					<li class="skill__front__item">jQuery</li>
-					<li class="skill__front__item">React.js</li>
-				</ul>
-				<p class="skill__back" >Back-end development</p>
-				<ul class="skill__back__list">
-					<li class="skill__back__item">Node.js</li>
-					<li class="skill__back__item">Express.js</li>
-					<li class="skill__back__item">MySQL</li>
-					<li class="skill__back__item">socket.io</li>
-					<li class="skill__back__item">REST APIs</li>
-				</ul>
-				<p class="skill__env">Environments, Testing and Source Control</p>
-				<ul class="skill__env__list">
-					<li class="skill__env__item">Git</li>
-					<li class="skill__env__item">TDD</li>
-					<li class="skill__env__item">Tape</li>
-					<li class="skill__env__item">Travis CI</li>
-					<li class="skill__env__item">Shot</li>
-					<li class="skill__env__item">QUnit</li>
-					<li class="skill__env__item">Heroku</li>
-				</ul>
-	</section>
-
-	<section class="work" id="work">
-        <h1 class="work__head">My Projects</h1>
-        <div class="work__container">
-            <div class="browser__one">
-					<h3>iMacaque</h3>
-                <img src="./assets/imacaque.png" class="imacaque__img"/>
-                <p class="work__text">
-                     Working in partnership with PhD students to develop a web-app based binary choice test to assist research in neuroscience and decision-making. Made with vanilla Node.js, MySQL.</p>
-            </div>
-            <div class="browser__two">
-					<h3>Find my Event</h3>
-                <img src="./assets/event.png" class="event__img"/>
-                <p class="work__text">
-                     A web app that allows the user to easily identify the events that are occurring in their area by inputing their post code. This app calls on two APIs, Google Maps and Eventful. Made with vanilla Node.js and vanilla JavaScript.</p>
-            </div>
-            <div class="browser__three">
-					<h3>cohlth</h3>
-                <img src="./assets/cohlth.png" class="cohlth__img"/>
-                <p class="work__text" id="cohlth__text">
-                A health tech initiative that aims to centralise your medical information and allowing smoother movement of information between health care systems across countries. Made with CSS, JavaScript and jQuery.</p>
-            </div>
-        </div>
-    </section>
-
-		<section class="contact" id="contact">
-				<h1 class="contact__text">Let's Chat</h1>
-				<p>Want to get in touch or talk to me about a project?</p>
-				<p class="contact__p">I'd love to hear from you.</p>
-				<a href="mailto:nataliejseeto@gmail.com" class="contact__email">Send me an email</a>
-					<p class="socialmedia">Let's get social. You can follow my profiles on Twitter, Linkedin and Github</p>
-						<p class="socialmedia__icons">
-						<a href="https://twitter.com/NatalieSeeto"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-						<a href="https://www.linkedin.com/in/natalie-seeto-70b6a4a8/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-							<a href="https://github.com/njseeto"><i class="fa fa-github" aria-hidden="true"></i></a>
-						</p>
-			</section>		
 </body>
 <script src="logic.js"></script>
 </html>
