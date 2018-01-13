@@ -1,5 +1,9 @@
-# Hello!
-This is my personal portfolio, feel free to check it out. 
+# Hello! 👋
+This is my personal portfolio, please feel free to check it out.
+
+Former clinician in paediatric neurology turned coder.
+
+Interested in health tech, AI, machine learning and neuroscience.
 
 -------------------     ----------------------------
 ### A quick outline of skills and contributions
