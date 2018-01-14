@@ -26,11 +26,11 @@ Git and Gitflow | TDD | QUnit | Tape | TravisCI | Heroku
 
 [Node Girls Website](https://github.com/node-girls/node-girls-website)
 
+[Cerner Terra Clinical](https://github.com/cerner/terra-clinical/blob/master/CONTRIBUTORS.md)
+
 [Raspberry Pi](https://github.com/raspberrypilearning/raspberry-pi-zero-time-lapse-cam)
 
 [Sublime Linter](https://github.com/SublimeLinter/SublimeLinter-flake8)
-
-[Cerner Terra Clinical](https://github.com/cerner/terra-clinical)
 
    
 **I also like to help...**
