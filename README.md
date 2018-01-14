@@ -24,7 +24,7 @@ Git and Gitflow | TDD | QUnit | Tape | TravisCI | Heroku
 
 **Open Source Contributions**
 
-[Node Girls Website](https://github.com/node-girls/node-girls-website)
+[Node Girls Website](https://github.com/node-girls/node-girls-website/graphs/contributors)
 
 [Cerner Terra Clinical](https://github.com/cerner/terra-clinical/blob/master/CONTRIBUTORS.md)
 
