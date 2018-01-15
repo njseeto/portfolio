@@ -796,8 +796,31 @@ html{
     .stars, .twinkling{
     max-height: 695vh;
     }
+
+    .intro__contact__p{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .intro__contact{
+      align-self: flex-end;
+    }
   }
   
+  @media only screen and (max-width: 450px){
+  .mars__div{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .intro__typewriter{
+    margin-right: 16rem;
+  }
+  .intro__contact__p{
+    margin-bottom: 5rem;
+  }
+
+  }
+
   @media only screen and (max-width: 400px){
   .mars__div{
     min-width: 90vw;
@@ -846,4 +869,13 @@ html{
   .stars, .twinkling{
   max-height: 655vh;
   }
+  .intro__contact__p{
+    margin-top: 12rem;
+  }
+  }
+
+  @media only screen and (max-width: 350px){
+    .intro__typewriter{
+     padding-top: 2rem;
+    }
   }
