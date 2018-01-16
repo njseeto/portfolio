@@ -23,6 +23,7 @@ _Environment, Testing and Source Control_
 Git and Gitflow | TDD | QUnit | Tape | TravisCI | Heroku
 
 **Open Source Contributions**
+[Google Auth Library for Node.js](https://github.com/google/google-auth-library-nodejs/blob/master/CONTRIBUTORS)
 
 [Node Girls Website](https://github.com/node-girls/node-girls-website/graphs/contributors)
 
