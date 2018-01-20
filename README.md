@@ -30,8 +30,6 @@ Git and Gitflow | TDD | QUnit | Tape | TravisCI | Heroku
 
 [Cerner Terra Clinical](https://github.com/cerner/terra-clinical/blob/master/CONTRIBUTORS.md)
 
-[Raspberry Pi](https://github.com/raspberrypilearning/raspberry-pi-zero-time-lapse-cam)
-
 [Sublime Linter](https://github.com/SublimeLinter/SublimeLinter-flake8)
 
    
