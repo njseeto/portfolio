@@ -38,7 +38,6 @@ Git and Gitflow | TDD | QUnit | Tape | TravisCI | Heroku
 - Mentor at [Founders and Coders](https://foundersandcoders.com/), London
 - Participant at [NHS Hack Day 2018](http://nhshackday.com/), Cardiff
 - Volunteer [Zoohackathon 2017](http://www.zoohackathon.com/), London
-- Organiser [Fishackathon 2018](http://fishackathon.hackernest.com/), London
 
 ### More information on experience and projects can be found on my [cv](/assets/cv.pdf)
 __________________
