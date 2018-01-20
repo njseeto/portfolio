@@ -824,7 +824,7 @@ html{
   @media only screen and (max-width: 400px){
   .mars__div{
     min-width: 90vw;
-    height: 70vh;
+    height: 60vh;
     margin-top: 10rem;
   }
   .mars{
@@ -870,7 +870,7 @@ html{
   max-height: 655vh;
   }
   .intro__contact__p{
-    margin-top: 12rem;
+    margin-top: 10rem;
   }
   }
 
