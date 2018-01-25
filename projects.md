@@ -19,7 +19,3 @@
 
 * [Github Repo](https://github.com/fac-12/talkFacToMe)
 * [Website](https://talkfactome.herokuapp.com/)
-
-### Find My Event
-
-* [Github Repo](https://github.com/fac-12/findmyevent)
