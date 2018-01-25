@@ -1,28 +1,10 @@
 * {
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  display: flex;
-  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
   background-color: #1d1e2c;
   color: #f0f7ee;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  height: 100vh;
   font-family: "Inconsolata", monospace;
-  letter-spacing: 1px;
-  background-position: bottom;
-}
-
-body {
-  max-width: 100%;
-  overflow-x: hidden;
 }
 
 /*GENERAL*/
@@ -36,64 +18,51 @@ a:hover {
 }
 
 /* HOME */
-.intro {
+
+.container {
+  height: 100%;
+  position: fixed;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.intro__name {
-  margin-top: 10rem;
-}
-
-.intro__line {
-  margin-top: 3rem;
-}
-
-.intro__typewriter {
-  padding: 2rem;
-  margin-top: 2rem;
-  align-self: center;
-  flex-wrap: wrap;
-}
-
-.intro__contact {
-  margin-top: 2rem;
-  font-size: 1.5rem;
-}
-
-.intro__space {
-  padding: 0.2rem;
-  margin-top: 2rem;
-  border: 1px solid #f0f7ee;
-}
-
-.socialmedia {
-  display: flex;
   justify-content: center;
 }
 
 .work {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: inline-block;
   font-size: 1.5rem;
-  margin-top: 2rem;
 }
 
-.work__cv,
-.work__projects {
-  padding: 3.5rem;
+.intro__name {
+  font-size: 1.5rem;
 }
 
-.socialmedia__icons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-size: 2rem;
+.intro__line {
+  margin-top: 3rem;
+  font-size: 1.5rem;
 }
+
+.intro__typewriter {
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.intro__contact {
+  margin: 2rem;
+  font-size: 1.2rem;
+}
+
+.intro__space {
+  padding: 0.2rem;
+  border: 1px solid #f0f7ee;
+}
+
+.nav-list {
+  padding: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
 .fa-envelope:hover {
   color: #db3236;
 }
@@ -110,20 +79,18 @@ a:hover {
   color: #6cc644;
 }
 
+.nav-list-links {
+  font-size: 2rem;
+}
+
 i {
   margin-left: 0.8rem;
   margin-right: 0.8rem;
 }
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 700px) {
-  .intro__line {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    margin-bottom: -3rem;
-    text-align: center;
-  }
+@media screen and (min-width: 600px) {
   .intro__name {
-    margin-bottom: -1rem;
+    font-size: 3.2rem;
   }
 }
