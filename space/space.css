@@ -507,6 +507,12 @@ html{
     .contact{
       margin-left: 15rem;
   }
+  .stars, .twinkling {
+    height:330vh;
+  }
+  
+
+}
   
   @media only screen and (max-width: 1200px){
     .contact{
@@ -573,10 +579,6 @@ html{
         padding: 1rem;
         max-height: 70vh;
       }  
-  
-      .stars, .twinkling {
-        height: 700vh;
-      }
     }
       @media only screen and (max-width: 800px){
         .mars {
@@ -657,10 +659,6 @@ html{
       flex-wrap: wrap;
       max-width: 20%;
     }
-  
-    .stars, .twinkling{
-    max-height: 695vh;
-    }
 
     .intro__contact__p{
       display: flex;
@@ -687,28 +685,29 @@ html{
   }
 
   @media only screen and (max-width: 400px){
+
+    .stars, .twinkling {
+      height:350vh;
+    }
+    
   .mars__div{
     min-width: 90vw;
-    height: 60vh;
+    height: 65vh;
     margin-top: 10rem;
   }
   .mars{
-    min-height: 95vh;
+    min-height: 92vh;
   }
   .earth__img{
     width: 20rem;
     height: 20rem;
-    margin-top: -8rem;
+    margin-top: 3rem;
   }
   .nar__img{
     height: 40vh;
-    margin-top: 1.5rem;
   }
   .nar__break{
-    min-height: 40vh;
-  }
-  .stars, .twinkling{
-  max-height: 655vh;
+    min-height:60vh;
   }
   .intro__contact__p{
     margin-top: 10rem;
