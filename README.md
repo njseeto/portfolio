@@ -8,19 +8,14 @@ Interested in health tech, AI, machine learning and neuroscience.
 -------------------     ----------------------------
 ### A quick outline of skills and contributions
 
-**Programming Languages**
 
-_Front-End Development_
+| Languages | Frameworks/Libraries | Testing   | Tools/Others        |
+|:---------:|:--------------------:|:---------:|:-------------------:|
+| Javascript| Express              | Tape/Tap  | Git and Gitflow     | 
+| Node.js   | React.js             |  QUnit    | Heroku              |
+|  SQL      | jQuery               | Supertest | Travis CI           |
+|  SASS     | Leaflet.js           | Shot      | Agile methodologies |
 
-JavaScript | jQuery | SASS | React.js
-
-_Back-End Development_ 
-
-Node.js | Express.js | PostgreSQL | REST APIs
-
-_Environment, Testing and Source Control_
-
-Git and Gitflow | TDD | QUnit | Tape | TravisCI | Heroku
 
 **Open Source Contributions**
 
@@ -37,7 +32,6 @@ Git and Gitflow | TDD | QUnit | Tape | TravisCI | Heroku
 - Mentor at [Node Girls](http://nodegirls.io/), London
 - Mentor at [Founders and Coders](https://foundersandcoders.com/), London
 - Participant at [NHS Hack Day 2018](http://nhshackday.com/), Cardiff
-- Volunteer [Zoohackathon 2017](http://www.zoohackathon.com/), London
 
 ### More information on experience and projects can be found on my [cv](/assets/cv.pdf)
 __________________
