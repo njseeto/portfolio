@@ -1,715 +1,129 @@
-* { 
-  color:#fff; 
-  text-decoration: none;
-  box-sizing: border-box;
-  max-width: 100vw;
+* {
   margin: 0;
+  box-sizing: border-box;
 }
 
 html {
   display: flex;
-  background-color: #898c90;
-  max-width: 100%;
-  overflow-x: hidden;
+  flex-direction: column;
+  background-color: #1d1e2c;
+  color: #f0f7ee;
 }
 
 body {
   display: flex;
   flex-direction: column;
   flex: 1;
-  text-align: center;
-  color:#fff;
-  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  font-family: "Inconsolata", monospace;
+  letter-spacing: 1px;
+  background-position: bottom;
+}
+
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
 
-/* Title page */
-.intro {
-  display: flex;
-  flex-direction: column;
-  padding-top: 8em;
-  background-color: #898c9080;
-  min-height: 85vh;
-  margin: 2em;
-  max-width: 100%;
+/*GENERAL*/
+a {
+  color: #f0f7ee;
+  text-decoration: none;
 }
 
-.intro__name {
-  line-height: 3em;
-}
-
-.intro__typewriter {
-  line-height: 3em;
-}
-
-.intro__contact{
-  font-size: 1em;
-  line-height: 8em;
-  font-style: italic;
-  box-shadow: #fff;
-}
-
-.intro__skills__section{
-  font-weight: lighter;
-  margin-top: 5rem;
-}
-
-.intro__skills {
-  align-self: flex-end;
-  min-height: 100%;
-  line-height: 2em;
-  min-width: 30%;
-  font-weight: bolder;
-  font-style: italic;
-}
-
-.arrows__img{
-  max-width: 1rem;
-  align-self: center;
-  margin-top: 5rem;
-}
-
-a:hover { 
-	color: white;
-  box-shadow: inset 0 0 0 0.05em white;
-  padding: 0.2rem;
-  opacity: 0.7;
-}
-
-/* Skills section */
-.skills {
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-align-content: space-around;
-justify-content: center;
-background-color: #4F6D7A;
-min-width: 100vw;
-min-height: 70vh;
-padding: 5rem;
-padding-bottom: 7rem;
-}
-
-
-.skills__head {
-  line-height: 3rem;
+a:hover {
   text-decoration: underline;
 }
 
-.skills__text {
-  color: black;
-}
-
-.skill__front, .skill__back, .skill__env {
-  font-size: 1.2rem;
-  min-width: 100%;
-  line-height: 5rem;
-  padding: 5;
-  margin: 0;
-  list-style: none;
-  display: flex;
-  flex-direction: row; 
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-ul {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-  padding: 0;
-  align-content: space-around;
-}
-
-.skill__front__item, .skill__back__item, .skill__env__item, .skill__back__item_my, .skill__back__item_socket, .skill__back__item_api {
-  font-size: 0.8rem;
-  border-radius: 3px;
-  border: 1px solid #fff;
-  max-width: 7rem;
-  max-height: 3rem;
-  padding: 0.5rem;
-  line-height: 1rem;
-  text-align: center;
-  margin: 6px;
-}
-
-/* Work section */
-.work {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; 
-  justify-content: space-around;
-  background-color:#DB504A;
-  }
-
-.work__container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  min-height: 70vh;
-  font-size: 0.9rem;
-  min-width: 100%;
-}
-  .work__head{
-    margin-top: 3rem;
-    font-size: 1.5rem;
-    text-decoration: underline;
-    min-width: 100%;
-    line-height: 5rem;
-  }
-
-  h3{
-    padding-top: 1rem;
-  }
-
-  .browser__one, .browser__two, .browser__three{
-    border-top: 2em solid rgba(230, 230, 230, 0.7);
-    box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
-    position: relative;
-    border-radius: 3px 3px 0 0;
-    max-height: 20vh;
-    max-width: 25%;
-    margin: 2em;
-    flex: 1;
-  }
-  
-  .browser__one:before, .browser__two:before, .browser__three:before{
-    display: block;
-    position: absolute;
-    content: '';
-    top: -1.25em;
-    left: 1em;
-    width: 0.5em;
-    height: 0.5em;
-    border-radius: 50%;
-    background-color: #f44;
-    box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
-  }
-
-  img {
-    max-width: 100%;
-    max-height: 200%
-  }
-
-  .work__text{
-    padding: 1rem;
-  }
-
-  h3{
-    font-weight: bold;
-  }
-
-  /* Contact section */
-.contact {
+/* HOME */
+.intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #E3B505;
-  min-width: 100vw;
-  min-height: 60vh;
-  font-size: 1.2rem;
-  }
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-  .contact__email{
-    align-self: center;
-    min-width: 15%;
-  }
+.intro__name {
+  margin-top: 10rem;
+}
 
-  .contact__text {
-    line-height: 5rem;
-    text-decoration: underline;
-    font-size: 1.6rem;
-  }
+.intro__line {
+  margin-top: 3rem;
+}
 
-  .socialmedia {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 3rem;
-  }
+.intro__typewriter {
+  padding: 2rem;
+  margin-top: 2rem;
+  align-self: center;
+  flex-wrap: wrap;
+}
 
-  .socialmedia__icons{
-    font-size: 2rem;
-  }
+.intro__contact {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
 
-  .contact__email{
-    margin-top: 2rem;
-    padding: 0.3rem;
-    border-radius: 3px;
-    border: 1px solid #fff;
-  }
+.intro__space {
+  padding: 0.2rem;
+  margin-top: 2rem;
+  border: 1px solid #f0f7ee;
+}
 
+.socialmedia {
+  display: flex;
+  justify-content: center;
+}
+
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.work__cv,
+.work__projects {
+  padding: 3.5rem;
+}
+
+.socialmedia__icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 2rem;
+}
+.fa-envelope:hover {
+  color: #db3236;
+}
+
+.fa-twitter:hover {
+  color: #0084b4;
+}
+
+.fa-linkedin:hover {
+  color: #007bb6;
+}
+
+.fa-github:hover {
+  color: #6cc644;
+}
+
+i {
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
 
 /* MEDIA QUERIES */
-
-@media only screen and (max-width: 1235px) {
-
-  .work__container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    min-height: 180vh;
-    font-size: 0.9rem;
-    min-width: 100%;
-    margin-top: -14rem;
+@media only screen and (max-width: 700px) {
+  .intro__line {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-bottom: -3rem;
+    text-align: center;
   }
-
-  .work__head {
-    margin-top: 1.5rem;
+  .intro__name {
+    margin-bottom: -1rem;
   }
-
-  .browser__one, .browser__two, .browser__three{
-    min-width: 40%;
-    max-height: 10%;
-    align-content: center;
-    align-self: center;
-  }
-
-  .browser__three{
-    margin-top: -15rem;
-  }
-
-
-  @media only screen and (max-width: 900px) {
-    .intro{
-      margin-top: -13rem;
-      max-height: 120vh;
-      padding-bottom: -20rem;
-    }
-    .intro__name {
-      margin-top: 8rem;
-    }
-
-    .intro__contact__p{
-      margin-top: 1rem;
-    }
-
-    .intro__skills__section {
-      margin-top: 5rem;
-    }
-
-    .work__container{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      min-height: 170vh;
-      font-size: 0.9rem;
-      min-width: 100%;
-    }
-  
-    .browser__one, .browser__two, .browser__three{
-      min-width: 40%;
-      max-height: 10%;
-      align-content: center;
-      align-self: center;
-    }
-  
-    .browser__three{
-      margin-top: -15rem;
-    }
-  }
-
-  @media only screen and (max-width: 800px) {
-    .intro{
-      min-height: 80vh;
-    }
-
-    .intro__name {
-      margin-top: 8rem;
-    }
-
-    .intro__contact__p{
-      margin-top: 2rem;
-      margin-bottom: 1.2rem;
-    }
-
-    .intro__skills__section {
-      margin-top: 1rem;
-    }
-
-    .work__container{
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      min-height: 240vh;
-      font-size: 0.9rem;
-      min-width: 100%;
-    }
-  
-    .work__head {
-      margin-top: 1.5rem;
-      margin-bottom: 10rem;
-    }
-  
-    .browser__one, .browser__two, .browser__three{
-      min-width: 75%;
-      min-height: 15%;
-      max-height: 10%;
-    }
-
-    .browser__one{
-      margin-top: -13rem;
-      margin-bottom: -23rem;
-    }
-
-    .browser__two {
-      margin-bottom: -5rem;
-    }
-
-    .browser__three{
-      margin-bottom: -1rem;
-    }
-
-  }
-
-    @media only screen and (max-width: 700px) {
-      .intro__name {
-        margin-top: 8.5rem;
-      }
-  
-      .intro__contact__p{
-        margin-top: 2rem;
-        margin-bottom: 3rem;
-      }
-  
-      .intro__skills__section {
-        margin-top: 1rem;
-      }
-
-      .arrows__img{
-        margin-top: 1rem;
-      }
-
-      .work__container{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        min-height: 220vh;
-        font-size: 0.9rem;
-        min-width: 100%;
-      }
-
-      .browser__one, .browser__two, .browser__three{
-        min-width: 75%;
-        min-height: 15%;
-        max-height: 10%;
-      }
-
-      .skill__front__item, .skill__back__item, .skill__env__item{
-        min-width: 20%;
-        max-width: 15%;
-        align-self: center;
-        display: block;
-      }
-
-      .skill__env__list{
-        display: flex;
-        flex-wrap: wrap;
-      }
-
-      .contact{
-        min-height: 70vh;
-      }
-    }
-
-      @media only screen and (max-width: 600px) {
-
-        .work__container{
-          display: flex;
-          flex-direction: column;
-          flex-wrap: wrap;
-          justify-content: space-around;
-          min-height: 220vh;
-          font-size: 0.9rem;
-          min-width: 100%;
-          
-        }
-      
-        .browser__one, .browser__two, .browser__three{
-          min-width: 75%;
-          min-height: 12%;
-          max-height: 10%;
-        }
-
-        .skill__front__item, .skill__back__item, .skill__env__item, .skill__back__item_my, .skill__back__item_socket, .skill__back__item_api{
-          min-width: 20%;
-          max-width: 15%;
-          align-self: center;
-          display: block;
-        }
-  
-        .skill__env__list, .skill__back__list, .skill__front__list{
-          display: flex;
-          flex-wrap: wrap;
-        }
-
-        .skill__back__item, .skill__front__item, .skill__back__item_my, .skill__back__item_socket, .skill__back__item_api {
-          min-width: 25%;
-          align-self: center;
-        }
-
-}
-
-
-
-@media only screen and (max-width: 550px) {
-.skill__env__item{
-  min-width: 22%;
-  margin-top: 1rem;
-  align-self: center;
-}
-
-.skill__env {
-  line-height: 2rem;
-  margin-top: 1.5rem;
-}
-
-.work__container{
-  min-height: 190vh;
-}
-
-.browser__one{
-  margin-top: -8rem;
-  margin-bottom: -10rem;
-}
-
-.browser__two{
-  margin-bottom: 8rem;
-}
-
-.browser__three{
-  margin-bottom: 5rem;
-}
-.skill__back__item{
-  margin-top: 2.5rem;
-}
-.skill__back__list{
-  margin-top: 0.2rem;
-}
-.skill__env__item{
-  margin-top: 0.2rem;
-}
-.skill__env__list{
-  margin-top: 1.5rem;
-}
-
-}
-
-@media only screen and (max-width: 450px) {
-
-  .work__container{
-    min-height: 190vh;
-  }
-
-  .skill__front__item, .skill__back__item, .skill__env__item{
-    max-width: 35%;
-    align-self: center;
-    display: block;
-  }
-
-  .skill__env__list, .skill__back__list, .skill__front__list{
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .skill__back__item, .skill__front__item {
-    min-width: 25%;
-    align-self: center;
-  }
-  .contact{
-    min-height: 80vh;
-    padding: 1rem;
-  }
-}
-
-
-@media only screen and (max-width: 375px) {
-  .intro__skills__section {
-    margin-top: -2rem;
-    margin-bottom: 2rem;
-    font-size: 0.8rem;
-  } 
-
-.arrows__img{
-    margin-top: 1.2rem;
-  }
-
-  .skill__front__item, .skill__back__item, .skill__env__item{
-    max-width: 45%;
-    align-self: center;
-    display: block;
-  }
-
-  .skill__env__list, .skill__back__list, .skill__front__list{
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .skill__back__item, .skill__front__item {
-    min-width: 25%;
-    align-self: center;
-  }
-
-  .skill__front__item {
-    margin-top: 0.2rem;
-  }
-  
-  .skill__front__list{
-    margin-top: 1rem;
-  }
-
-  .skill__back__item{
-  margin-top: -2rem;
-  }
-
-  .skill__back__list{
-    margin-top: 3rem;;
-  }
-
-.skill__back, .skill__front{
-  line-height: 2rem;
-  margin-top: 1.5rem;
- }
-
- .work__container{
-  min-height: 165vh;
-}
-
-}
-
-
-@media only screen and (max-width: 360px) {
-
-  .intro{
-    max-height: 120vh;
-  }
-
-  .work__head {
-    margin-top: 0rem;
-  }
-
-  .intro__name, .intro__line, .typewrite {
-    font-size: 1.2rem;
-  }
-  .intro__contact__p{
-    margin-top: 0rem;
-  }
-
-  .intro__skills__section {
-    margin-top: 0.2rem;
-    font-size: 0.8rem;
-  }
-
-  .arrows__img{
-    margin-top: 0.8rem;
-  }
-
-  .skill__front__item,.skill__back__item, .skill__back__item_my, .skill__back__item_socket, .skill__back__item_api.skill__env__item{
-    max-width: 50%;
-    padding: 0.2rem;
-  }
-
-  .skill__env__list, .skill__back__list, .skill__front__list{
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .skill__back__item, .skill__front__item {
-    min-width: 10%;
-    align-self: center;
-    margin-top: 1.5rem;
-  }
-
-.skill__back, .skill__front{
-  line-height: 2rem;
-  margin-top: 1.5rem;
- }
-
- .skills{
-   padding: -2rem;
- }
-
- .skill__front, .skill__back, .skill__env{
-   font-size: 1rem;
- }
-
- .skills__head{
-   font-size: 1.4rem;
- }
- .work__container{
-  min-height: 200vh;
-}
-
-}
-
-
-@media only screen and (max-width: 320px) {
-
-  .intro{
-    max-height: 100vh;
-  }
-
-  .work__head {
-    margin-top: 0rem;
-  }
-
-  .intro__name, .intro__line, .typewrite {
-    font-size: 1.2rem;
-  }
-  .intro__contact__p{
-    margin-top: 0rem;
-  }
-
-  .intro__skills__section {
-    margin-top: 0.2rem;
-    font-size: 0.8rem;
-  }
-
-  .arrows__img{
-    margin-top: 0.8rem;
-  }
-
-  .skill__front__item,.skill__back__item, .skill__env__item{
-    max-width: 50%;
-    padding: 0.2rem;
-  }
-
-  .skill__env__list, .skill__back__list, .skill__front__list{
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .skill__back__item, .skill__front__item {
-    min-width: 10%;
-    align-self: center;
-    margin-top: 1.5rem;
-  }
-
-.skill__back, .skill__front{
-  line-height: 2rem;
-  margin-top: 1.5rem;
- }
-
- .skills{
-   padding: -2rem;
- }
-
- .skill__front, .skill__back, .skill__env{
-   font-size: 1rem;
- }
-
- .skills__head{
-   font-size: 1.4rem;
- }
-
- .work__container{
-  min-height: 220vh;
-}
-
 }

@@ -1,118 +1,48 @@
-<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio</title>
+    <title>njseeto - portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <script src="https://use.fontawesome.com/834c0e249e.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <section class="intro" id="intro">
-    <h1 class="intro__name">
-        Hello, my name is Nat. 
+    <section class="intro">
+        <h1 class="intro__name">Hello, my name is Nat.</h1>
         <h1 class="intro__line">I'm a full stack developer based in London, UK and I love to...</h1>
-    </h1>
         <h1 class="intro__typewriter">
             <p class="typewrite" data-period="2000" data-type='[ "Create.", "Design.", "Develop." , "Innovate."]'>
-              <span class="wrap"></span>
+                <span class="wrap"></span>
             </p>
         </h1>
-        <p class="intro__contact__p">
-                <a href=#contact class="intro__contact">Say hello </a>
-            </p>
-    <p class="intro__skills__section">
-        Learn more about what I do on my 
-        <a href=#skills class="intro__skills">skills page</a>
-    </p>
-<img src="./assets/arrows.png" class="arrows__img"/>
+        <p class="intro__contact">
+            <a href=space/space.html class="intro__space">Lift Off! </a>
+        </p>
+
+        <p class="work">
+            <a href="/assets/cv.pdf" class="work__cv">cv</a>
+            <a href="projects.md" class="work__projects">projects</a>
+        </p>
+        <p class="socialmedia__icons">
+            <a href="mailto:natalejseeto@gmail.com">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <a href="https://twitter.com/NatalieSeeto">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/njseeto">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/natalie-seeto-70b6a4a8/">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+        </p>
     </section>
-    
-    <section class="skills" id="skills">
-        <h1 class="skills__head">My Skills</h1>
-        <p class="skill__front" >Front-end development</p>
-            <ul class="skill__front__list">
-                <li class="skill__front__item">HTML5</li>
-                <li class="skill__front__item">CSS3</li>
-                <li class="skill__front__item">JavaScript</li>
-                <li class="skill__front__item">jQuery</li>
-                <li class="skill__front__item">React.js</li>
-            </ul>
-            <p class="skill__back" >Back-end development</p>
-            <ul class="skill__back__list">
-                <li class="skill__back__item">Node.js</li>
-                <li class="skill__back__item">Express.js</li>
-                <li class="skill__back__item">MySQL</li>
-                <li class="skill__back__item">socket.io</li>
-                <li class="skill__back__item">REST APIs</li>
-            </ul>
-            <p class="skill__env">Environments, Testing and Source Control</p>
-            <ul class="skill__env__list">
-                <li class="skill__env__item">Git</li>
-                <li class="skill__env__item">TDD</li>
-                <li class="skill__env__item">Tape</li>
-                <li class="skill__env__item">Travis CI</li>
-                <li class="skill__env__item">Shot</li>
-                <li class="skill__env__item">QUnit</li>
-                <li class="skill__env__item">Heroku</li>
-            </ul>
-    </section>
-
-    <section class="work" id="work">
-        <h1 class="work__head">My Projects</h1>
-        <div class="work__container">
-            <div class="browser__one">
-                <img src="./assets/imacaque.png" class="imacaque__img"/>
-                <div class="middle">
-                <div class="imacaque__text"></div>
-                </div>
-                <h3>iMacaque</h3>
-                <p class="work__text">
-                     Working in partnership with PhD students to develop a web-app based binary choice test to assist research in neuroscience and decision-making. Made with vanilla Node.js, MySQL.</p>
-            </div>
-            <div class="browser__two">
-                <img src="./assets/event.png" class="event__img"/>
-                <div class="overlay">
-                <div class="event__text"> </div>
-                </div>
-                <h3>Find my Event</h3>
-                <p class="work__text">
-                     A web app that allows the user to easily identify the events that are occurring in their area by inputing their post code. This app calls on two APIs, Google Maps and Eventful. Made with vanilla Node.js and vanilla JavaScript.</p>
-            </div>
-            <div class="browser__three">
-                <img src="./assets/cohlth.png" class="cohlth__img" />
-                <div class="middle">
-                <div class="cohlth__text"></div>
-                </div>
-                <h3>cohlth</h3>
-                <p class="work__text" id="cohlth__text">
-                A health tech initiative that aims to centralise your medical information and allowing smoother movement of information between health care systems across countries. Made with CSS, JavaScript and jQuery.</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-            <h1 class="contact__text">
-                Let's Chat
-            </h1>
-            <p>Want to get in touch or talk to me about a project?</p>
-            <p class="contact__p">I'd love to hear from you.</p>
-            <a href="mailto:nataliejseeto@gmail.com" class="contact__email">Send me an email.</a>
-
-                <form class="contact__form"></form>
-
-                <p class="socialmedia">Let's get social. You can follow my profiles on Twitter, Linkedin and Github</p>
-                    <p class="socialmedia__icons">
-                    <a href="https://twitter.com/NatalieSeeto"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href="https://www.linkedin.com/in/natalie-seeto-70b6a4a8/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        <a href="https://github.com/njseeto"><i class="fa fa-github" aria-hidden="true"></i></a>
-            </p>
-        </section>
-
 </body>
 <script src="logic.js"></script>
+
 </html>
