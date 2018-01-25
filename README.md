@@ -1,7 +1,7 @@
 # Hello! 👋
-This is my personal portfolio, please feel free to check it out.
+This is my personal cv, please feel free to check it out.
 
-Former clinician in paediatric neurology turned coder.
+I see technology as a tool to solve problems, believe writing code is better in pairs, and am eager to build valuable software for clientswhile learning with them along the way.
 
 Interested in health tech, AI, machine learning and neuroscience.
 
