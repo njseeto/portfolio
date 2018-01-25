@@ -13,17 +13,17 @@ html{
     right:0;
     bottom:0;
     width:100vw;
-    height:720vh;
+    height:400vh;
     display:block;
     z-index: 0;
   }
   
   .stars {
-    background:black url(assets/stars.png) repeat top center;
+    background:black url(../assets/stars.png) repeat top center;
   }
   
   .twinkling{
-    background:transparent url(assets/twinkling.png) repeat top center;
+    background:transparent url(../assets/twinkling.png) repeat top center;
     -moz-animation:move-twink-back 650s linear infinite; /* Firefox */
     -webkit-animation:move-twink-back 650s linear infinite; /* Chrome, Safari, Opera */ 
     animation: move-twink-back 650s linear infinite;
@@ -372,102 +372,6 @@ html{
     animation: noise 0.5s linear infinite;
   }
   
-  /* JUPITER */
-  .jupiter__break{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    min-height: 60vh;
-  }
-  
-  .jupiter__img{
-    align-self: flex-end;
-    z-index: 1;
-    position: absolute;
-    margin-top: -5rem;
-  }
-  
-  /* WORK */
-  .work {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: center;
-    min-height: 50vh;
-    }
-  
-  .work__container{
-    font-size: 1rem;
-    font-family: 'Open Sans', sans-serif;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 0.9rem;
-    min-height: 270vh;
-    min-width: 80%;
-    color: #00a1ed;
-  }
-    .work__head{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      font-family: 'Open Sans', sans-serif;
-      font-size: 1.8rem;
-  
-      min-width: 100%;
-      z-index: 1;
-    }
-  
-    h3{
-      margin-top: 8rem;
-      font-size: 1.5rem;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  
-    .browser__one, .browser__two, .browser__three{
-      box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
-      position: relative;
-      border-radius: 3px 3px 0 0;
-      max-height: 78%;
-      min-width: 50%;
-      max-width: 50%;
-      align-self: center;
-      flex: 1;
-      margin: 2rem;
-      margin-top: -17rem;
-    }
-    
-    .browser__two{
-      margin-top: -20rem;
-    }
-  
-    .browser__three{
-      margin-top: -18rem;
-    }
-  
-    img {
-      max-width: 100%;
-      max-height: 200%
-    }
-  
-    .work__text{
-      padding: 1rem;
-      font-size: 1.2rem;
-      border-radius: 3px;
-      border: 1px solid #00a1ed;
-      background: #2287da50;
-      background-repeat: no-repeat;
-      -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0));
-      filter: drop-shadow(5px 5px 5px rgba(0, 161, 237, 0));
-      color: #00a1ed;
-      animation: noise 0.3s linear infinite;
-    }
-  
     /* EARTH */
   
     .earth__break{
@@ -618,12 +522,6 @@ html{
     .contact{
       margin-left: 11rem;
     }
-    .browser__one, .browser__two, .browser__three{
-      max-height: 78%;
-      min-width: 80%;
-      margin: 2rem;
-      margin-top: -12rem;
-    }
   
     .earth__break{
       display: flex;
@@ -660,10 +558,6 @@ html{
         margin-top: 2rem;
       }
   
-      .jupiter__img{
-        align-self: center;
-      }
-  
       .earth__break{
         display: flex;
         justify-content: center;
@@ -683,11 +577,6 @@ html{
       .stars, .twinkling {
         height: 700vh;
       }
-  
-      .browser__one, .browser__two, .browser__three{
-        margin-top: -12rem;
-      }
-  
     }
       @media only screen and (max-width: 800px){
         .mars {
@@ -722,17 +611,9 @@ html{
           margin-left: 5.5rem;
       }
   
-      .browser__two {
-        margin-top: -20rem;
-      }
-  
       .earth__img{
         height: 25rem;
         margin-top: -5rem;
-      }
-  
-      .jupiter__img{
-        margin-top: 0.1rem;
       }
   
       .skill__env__list, .skill__back__list, .skill__front__list{
@@ -748,10 +629,6 @@ html{
         margin-bottom: 1rem;
         text-align: center;
       }
-  
-      .browser__one{
-        margin-bottom: 10rem;
-      }
     }
   
     @media only screen and (max-width: 500px){
@@ -765,18 +642,6 @@ html{
       .contact{
         margin-left: 3.5rem;
     }
-  
-    .browser__one{
-      margin-top: -20rem;
-    }
-    .browser__two{
-      margin-top: -25rem;
-    }
-  
-    .browser__three{
-      margin-top: -22rem;
-    }
-  
     .earth__img{
       width: 20rem;
       height: 20rem;
@@ -830,14 +695,6 @@ html{
   .mars{
     min-height: 95vh;
   }
-  .browser__two{
-    margin-top: -40rem;
-  }
-  
-  .browser__three{
-    margin-top: -38rem;
-  }
-  
   .earth__img{
     width: 20rem;
     height: 20rem;
@@ -849,22 +706,6 @@ html{
   }
   .nar__break{
     min-height: 40vh;
-  }
-  .jupiter__img{
-    margin-top: -2rem;
-  }
-  .jupiter__break{
-    min-height: 50vh;
-  }
-  
-  .browser__one{
-    margin-top: -22rem;
-  }
-  .browser__two{
-    margin-top: -48rem;
-  }
-  .browser__three{
-    margin-top: -40rem;
   }
   .stars, .twinkling{
   max-height: 655vh;
