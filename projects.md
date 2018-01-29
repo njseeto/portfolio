@@ -5,6 +5,9 @@
 * [Github Repo](https://github.com/fac-12/Little-Window)
 * Currently being built 🔨
 
+### CalmoVR (NHS Hack Day 2018 Winners)
+* [Github Repo](https://github.com/nhsd-calmo/calmo)
+
 ### UpShop
 
 * [Github Repo](https://github.com/fac-12/upShop)
