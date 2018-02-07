@@ -11,8 +11,8 @@ Interested in health tech, AI, machine learning and neuroscience.
 
 | Languages | Frameworks/Libraries | Testing   | Tools/Others        |
 |:---------:|:--------------------:|:---------:|:-------------------:|
-| Javascript| Express              | Tape/Tap  | Git and Gitflow     | 
-| Node.js   | React.js             |  QUnit    | Heroku              |
+| Javascript| Express              | Tape      | Git and Gitflow     | 
+| Node.js   | React.js             | QUnit     | Heroku              |
 |  SQL      | jQuery               | Supertest | Travis CI           |
 |  SASS     | Leaflet.js           | Shot      | Agile methodologies |
 
@@ -25,7 +25,7 @@ Interested in health tech, AI, machine learning and neuroscience.
 
 [Cerner Terra Clinical](https://github.com/cerner/terra-clinical/blob/master/CONTRIBUTORS.md)
 
-[Sublime Linter](https://github.com/SublimeLinter/SublimeLinter-flake8)
+[Sublime Linter](https://github.com/SublimeLinter/SublimeLinter-flake8/graphs/contributors)
 
    
 **I also like to help...**
