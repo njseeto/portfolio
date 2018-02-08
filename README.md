@@ -13,9 +13,9 @@ Interested in health tech, AI, machine learning and neuroscience.
 |:---------:|:--------------------:|:---------:|:-------------------:|
 | Javascript| Express              | Tape      | Git and Gitflow     | 
 | Node.js   | React.js             | QUnit     | Heroku              |
-|  SQL      | jQuery               | Supertest | Travis CI           |
-|  SASS     | Leaflet.js           | Shot      | Agile methodologies |
-
+| PostgreSQL| jQuery               | Supertest | Travis CI           |
+|  SASS     | Leaflet.js           | Shot      | AWS                 |
+|           |                      |           | Agile methodologies |
 
 **Open Source Contributions**
 
