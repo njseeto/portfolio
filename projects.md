@@ -4,7 +4,7 @@
 
 Collaborating with Chayn, a charity that assists those affected by domestic abuse, to build a chatbot allowing users to access resources in a timely and anonymous manner.
 
-React | DialogFlow | AWS
+React | DialogFlow | AWS | Node | Express
 
 * [Github Repo](https://github.com/fac-12/Little-Window)
 * Currently being built 🔨
