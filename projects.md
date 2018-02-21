@@ -2,12 +2,12 @@
 
 ### Little Window
 
-Collaborating with Chayn, a charity that assists those affected by domestic abuse, to build a chatbot allowing users to access resources in a timely and anonymous manner.
+Collaborating with [Chayn](https://chayn.co/), a charity that assists those affected by domestic abuse, to build a chatbot allowing users to access resources in a timely and anonymous manner.
 
 React | DialogFlow | AWS | Node | Express
 
 * [Github Repo](https://github.com/fac-12/Little-Window)
-* Currently being built 🔨
+* MVP completed; next sprint to begin March 2018.
 
 ### CalmoVR (NHS Hack Day 2018 Winners)
 
