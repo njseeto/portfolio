@@ -15,7 +15,7 @@ Interested in health tech, AI, machine learning and neuroscience.
 | Node.js               | React.js             | QUnit     | Heroku              |
 | PostgreSQL            | Leaflet.js           | Supertest | Travis CI           |
 |  SCSS                 | Styled Componenets   | Shot      | AWS                 |
-|   Elm                 |                      |           | Agile methodologies |
+|                       |                      |           | Agile methodologies |
 |                       |                      |           | DialogFlow          |
 |                       |                      |           | TDD                 |
 |                       |                      |           | Invision            |
