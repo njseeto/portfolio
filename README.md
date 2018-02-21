@@ -9,13 +9,17 @@ Interested in health tech, AI, machine learning and neuroscience.
 ### A quick outline of skills and contributions
 
 
-| Languages | Frameworks/Libraries | Testing   | Tools/Others        |
-|:---------:|:--------------------:|:---------:|:-------------------:|
-| Javascript| Express              | Tape      | Git and Gitflow     | 
-| Node.js   | React.js             | QUnit     | Heroku              |
-| PostgreSQL| jQuery               | Supertest | Travis CI           |
-|  SASS     | Leaflet.js           | Shot      | AWS                 |
-|           |                      |           | Agile methodologies |
+| Languages             | Frameworks/Libraries | Testing   | Tools/Others        |
+|:---------------------:|:--------------------:|:---------:|:-------------------:|
+| Javascript (ES5 & ES6)| Express              | Tape      | Git and Gitflow     | 
+| Node.js               | React.js             | QUnit     | Heroku              |
+| PostgreSQL            | Leaflet.js           | Supertest | Travis CI           |
+|  SCSS                 | Styled Componenets   | Shot      | AWS                 |
+|   Elm                 |                      |           | Agile methodologies |
+|                       |                      |           | DialogFlow          |
+|                       |                      |           | TDD                 |
+|                       |                      |           | Invision            |
+
 
 **Open Source Contributions**
 
@@ -26,6 +30,8 @@ Interested in health tech, AI, machine learning and neuroscience.
 [Cerner Terra Clinical](https://github.com/cerner/terra-clinical/blob/master/CONTRIBUTORS.md)
 
 [Sublime Linter](https://github.com/SublimeLinter/SublimeLinter-flake8/graphs/contributors)
+
+[Founders and Coders](https://github.com/foundersandcoders/ws-tdd-node-server/graphs/contributors)
 
    
 **I also like to help...**
