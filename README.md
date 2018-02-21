@@ -39,7 +39,7 @@ Interested in health tech, AI, machine learning and neuroscience.
 - Mentor at [Founders and Coders](https://foundersandcoders.com/), London
 - Winner at [NHS Hack Day 2018](http://nhshackday.com/), Cardiff. We built [CalmoVR](https://github.com/nhsd-calmo/calmo).
 
-### More information on experience and projects can be found on my [cv](/assets/cv.pdf)
+### More information on experience and projects can be found on my [cv](/assets/CV2018.pdf)
 __________________
 
 ### Get in touch
