@@ -9,6 +9,15 @@ React | DialogFlow | AWS | Node | Express
 * [Github Repo](https://github.com/fac-12/Little-Window)
 * MVP completed; next sprint to begin March 2018.
 
+### iMacaque
+
+An app built for monkeys to assist in decision making. Replicating binary choice tests and static choice test.
+
+React | MongoDB | Node | Express
+
+* [Github Repo](https://github.com/fac-12/iMacaque)
+* MVP completed.
+
 ### CalmoVR (NHS Hack Day 2018 Winners)
 
 A 360 degree virtual reality app that uses box-breathing techniques to immerse users in a calming environment, allowing clinicians to perform otherwise anxiety inducing procedures such as taking blood.
